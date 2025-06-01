@@ -177,6 +177,9 @@ export default {
         'division': 'A fórmula resulta em divisão por zero.',
         'name': 'A fórmula referencia um nome que não foi definido.',
         'value': 'A fórmula produz um valor inválido ou incompatível.',
+        'separator': 'A fórmula utiliza um separador incorreto.',
+        'format': 'A fórmula contém formatação inválida.',
+        'missing': 'A fórmula está faltando um argumento obrigatório.',
         'unknown': 'Erro não identificado na fórmula.'
       }
       return descriptions[type] || 'Erro desconhecido detectado na fórmula.'

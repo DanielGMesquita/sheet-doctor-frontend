@@ -86,7 +86,8 @@ export default {
         'circular': 'Referência Circular',
         'division': 'Divisão por Zero',
         'name': 'Nome Indefinido',
-        'value': 'Erro de Valor'
+        'value': 'Erro de Valor',
+        'separator': 'Erro de Separador',
       }
       return labels[type] || 'Erro Desconhecido'
     },
