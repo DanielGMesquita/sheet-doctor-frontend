@@ -1,4 +1,3 @@
-<!-- 📁 src/components/CorrectionItem.vue -->
 <template>
   <div class="correction-item">
     <div class="correction-header">
