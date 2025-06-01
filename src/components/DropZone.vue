@@ -53,7 +53,8 @@ export default {
 
       const validation = validateFile(file)
       if (!validation.isValid) {
-        // Emit error or handle validation failure
+        emit('fileSelected', null)
+        alert(validation.message)
         return
       }
 
