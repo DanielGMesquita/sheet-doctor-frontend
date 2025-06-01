@@ -1,4 +1,3 @@
-<!-- 📁 src/components/StatisticsGrid.vue -->
 <template>
   <div class="statistics-grid">
     <div class="stat-card">

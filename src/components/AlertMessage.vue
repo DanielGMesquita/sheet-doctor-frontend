@@ -1,4 +1,3 @@
-// 📁 src/components/AlertMessage.vue
 <template>
   <div :class="alertClasses">
     <i :class="iconClass"></i>

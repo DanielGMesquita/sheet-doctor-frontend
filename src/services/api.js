@@ -52,7 +52,13 @@ export const excelApi = {
       }
     })
 
-    // Download do arquivo
+    // File download logic
+    if (response.status !== 200) {
+      throw new Error('Erro ao baixar o arquivo corrigido')
+    }
+    if (!response.data) {
+      throw new Error('Nenhum dado recebido na resposta')
+    }
     const blob = new Blob([response.data])
     const url = window.URL.createObjectURL(blob)
     const link = document.createElement('a')

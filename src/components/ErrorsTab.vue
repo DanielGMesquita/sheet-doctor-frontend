@@ -1,4 +1,3 @@
-<!-- 📁 src/components/ErrorsTab.vue -->
 <template>
   <div class="errors-tab">
     <div class="errors-header">
